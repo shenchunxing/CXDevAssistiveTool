@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CXDevAssistiveTool_Example' do
+  pod 'CXDevAssistiveTool', :path => '../'
+
+  target 'CXDevAssistiveTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
