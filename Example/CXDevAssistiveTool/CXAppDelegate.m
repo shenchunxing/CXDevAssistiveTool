@@ -7,12 +7,17 @@
 //
 
 #import "CXAppDelegate.h"
-
+#import "CXViewController.h"
+#ifdef DEBUG
+#import <CXDevAssistiveTool/CXDevAssistive.h>
+#endif
 @implementation CXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+#ifdef DEBUG
+    [[CXAssistiveManager sharedManager] installPlugins];
+#endif
     return YES;
 }
 

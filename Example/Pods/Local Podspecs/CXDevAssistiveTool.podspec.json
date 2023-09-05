@@ -1,0 +1,53 @@
+{
+  "name": "CXDevAssistiveTool",
+  "version": "0.1.0",
+  "summary": "A short description of CXDevAssistiveTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shenchunxing/CXDevAssistiveTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shenchunxing": "519045026@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/shenchunxing/CXDevAssistiveTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CXDevAssistiveTool/Classes/**/*",
+  "resource_bundles": {
+    "CXDevAssistiveTool": [
+      "CXDevAssistiveTool/Assets/Resource.xcassets"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [
+
+    ],
+    "FBRetainCycleDetector": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "ReactiveObjC": [
+
+    ],
+    "CXNetworking": [
+
+    ],
+    "CXLogger": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module CXDevAssistiveTool {
+  umbrella header "CXDevAssistiveTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

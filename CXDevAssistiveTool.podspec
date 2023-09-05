@@ -32,11 +32,21 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CXDevAssistiveTool/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CXDevAssistiveTool' => ['CXDevAssistiveTool/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'CXDevAssistiveTool' => ['CXDevAssistiveTool/Assets/Resource.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'YYModel'
+  s.dependency 'FBRetainCycleDetector'
+  s.dependency 'Masonry'
+  s.dependency 'ReactiveObjC'
+  s.dependency 'CXNetworking'
+  s.dependency 'CXLogger'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'SDWebImage'
+  
 end
